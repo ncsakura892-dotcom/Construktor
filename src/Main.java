@@ -28,5 +28,11 @@ public class Main {
         System.out.println("name:"+cat2.name+
                 "\nage:"+cat2.age+
                 "\nColor:"+cat2.color);
+
+        Cat cat5=new Cat("Luna",1,"Black");
+        System.out.println(" ");
+        System.out.println("name:"+cat5.name+
+                "\nage:"+cat5.age+
+                "\nColor:"+cat5.color);
     }
 }
